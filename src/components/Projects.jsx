@@ -2,7 +2,7 @@ import "../styles/projects.css";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-import sharebite from "../assets/projects/Sharebite.png";
+import sharebite from "../assets/projects/ShareBite.png";
 import skinfit from "../assets/projects/skinfit.png";
 import birthday from "../assets/projects/birthday.png";
 
@@ -282,7 +282,6 @@ project.demo==="Private Project" &&
 
 <div className="private-project">
 
-🔒 Private Project
 
 </div>
 
