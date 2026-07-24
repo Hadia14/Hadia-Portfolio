@@ -1,0 +1,245 @@
+.experience{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:80px 0;
+
+}
+
+
+
+.experience h2{
+
+    text-align:center;
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.experience h2 span{
+
+    color:#10B981;
+
+}
+
+
+
+.experience-text{
+
+    max-width:700px;
+
+    margin:0 auto 45px;
+
+    text-align:center;
+
+    color:#9CA3AF;
+
+    line-height:1.8;
+
+}
+
+
+
+/* Timeline */
+
+.timeline{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+
+.experience-card{
+
+    background:#151524;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+
+
+.experience-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#10B981;
+
+    box-shadow:0 15px 35px rgba(16,185,129,.15);
+
+}
+
+
+
+/* Header */
+
+.experience-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    margin-bottom:20px;
+
+    gap:20px;
+
+}
+
+
+
+.experience-header h3{
+
+    font-size:24px;
+
+    margin-bottom:6px;
+
+}
+
+
+
+.experience-header h4{
+
+    color:#22D3EE;
+
+    font-weight:500;
+
+}
+
+
+
+.experience-header span{
+
+    color:#10B981;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+}
+
+
+
+/* Description */
+
+.experience-card ul{
+
+    padding-left:20px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.experience-card li{
+
+    margin-bottom:12px;
+
+    line-height:1.7;
+
+    color:#D1D5DB;
+
+}
+
+
+
+/* Technology Tags */
+
+.experience-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+
+
+.experience-tags span{
+
+    padding:8px 18px;
+
+    border-radius:25px;
+
+    background:#1E2033;
+
+    border:1px solid rgba(16,185,129,.2);
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+
+
+.experience-tags span:hover{
+
+    background:#10B981;
+
+    transform:translateY(-3px);
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+
+.experience{
+
+    padding:60px 0;
+
+}
+
+
+
+.experience h2{
+
+    font-size:36px;
+
+}
+
+
+
+.experience-header{
+
+    flex-direction:column;
+
+}
+
+
+
+.experience-header span{
+
+    white-space:normal;
+
+}
+
+
+}

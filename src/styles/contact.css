@@ -1,0 +1,265 @@
+.contact{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:80px 0;
+
+}
+
+
+
+.contact-container{
+
+    text-align:center;
+
+}
+
+
+
+/* Heading */
+
+.contact h2{
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.contact h2 span{
+
+    color:#10B981;
+
+}
+
+
+
+.contact-text{
+
+    max-width:700px;
+
+    margin:0 auto 45px;
+
+    color:#9CA3AF;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+
+
+/* Contact Cards */
+
+.contact-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    margin-bottom:45px;
+
+}
+
+
+
+.contact-card{
+
+    background:#151524;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    transition:.35s;
+
+}
+
+
+
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#10B981;
+
+    box-shadow:0 20px 40px rgba(16,185,129,.15);
+
+}
+
+
+
+.contact-card svg{
+
+    font-size:36px;
+
+    color:#10B981;
+
+    margin-bottom:18px;
+
+}
+
+
+
+.contact-card h3{
+
+    color:white;
+
+    margin-bottom:12px;
+
+}
+
+
+
+.contact-card span,
+
+.contact-card a{
+
+    color:#D1D5DB;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+
+
+.contact-card a:hover{
+
+    color:#10B981;
+
+}
+
+
+
+/* Social Buttons */
+
+.social-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.social-buttons a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:13px 25px;
+
+    background:#151524;
+
+    border-radius:40px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+
+
+.social-buttons a:hover{
+
+    background:#10B981;
+
+    transform:translateY(-5px);
+
+}
+
+
+
+.social-buttons svg{
+
+    font-size:22px;
+
+}
+
+
+
+/* Responsive */
+
+
+@media(max-width:900px){
+
+
+.contact-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
+
+
+
+@media(max-width:600px){
+
+
+.contact{
+
+    padding:60px 0;
+
+}
+
+
+
+.contact h2{
+
+    font-size:36px;
+
+}
+
+
+
+.contact-text{
+
+    font-size:15px;
+
+}
+
+
+
+.social-buttons{
+
+    flex-direction:column;
+
+}
+
+
+
+.social-buttons a{
+
+    justify-content:center;
+
+}
+
+}

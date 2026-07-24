@@ -1,0 +1,414 @@
+.education{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:80px 0;
+
+}
+
+
+/* ================= HEADINGS ================= */
+
+.education h2,
+.certification-section h2{
+
+    text-align:center;
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+}
+
+
+.education h2 span,
+.certification-section h2 span{
+
+    color:#10B981;
+
+}
+
+
+
+.education-text{
+
+    max-width:750px;
+
+    margin:0 auto 45px;
+
+    text-align:center;
+
+    color:#9CA3AF;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+
+
+/* ================= EDUCATION ================= */
+
+.education-grid{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+
+
+.education-card{
+
+    width:100%;
+
+    max-width:850px;
+
+    background:#151524;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+
+
+.education-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#10B981;
+
+    box-shadow:0 20px 40px rgba(16,185,129,.15);
+
+}
+
+
+
+.education-icon{
+
+    width:75px;
+
+    height:75px;
+
+    margin:0 auto 20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:rgba(16,185,129,.12);
+
+    color:#10B981;
+
+    font-size:34px;
+
+}
+
+
+
+.education-card h3{
+
+    font-size:27px;
+
+    margin-bottom:10px;
+
+    color:white;
+
+}
+
+
+
+.education-card h4{
+
+    color:#22D3EE;
+
+    font-weight:500;
+
+    margin-bottom:12px;
+
+}
+
+
+
+.education-card span{
+
+    display:inline-block;
+
+    margin-bottom:18px;
+
+    color:#10B981;
+
+    font-weight:600;
+
+}
+
+
+
+.education-card p{
+
+    color:#D1D5DB;
+
+    line-height:1.8;
+
+}
+
+
+
+/* ================= CERTIFICATION ================= */
+
+
+.certification-section{
+
+    margin-top:70px;
+
+}
+
+
+
+.certificate-card{
+
+    max-width:850px;
+
+    margin:auto;
+
+    background:#151524;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+
+
+.certificate-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#10B981;
+
+    box-shadow:0 20px 40px rgba(16,185,129,.15);
+
+}
+
+
+
+.certificate-card h3{
+
+    font-size:27px;
+
+    margin-bottom:10px;
+
+    color:white;
+
+}
+
+
+
+.certificate-card h4{
+
+    color:#22D3EE;
+
+    font-weight:500;
+
+    margin-bottom:12px;
+
+}
+
+
+
+.certificate-card span{
+
+    color:#10B981;
+
+    font-weight:600;
+
+    display:block;
+
+    margin-bottom:18px;
+
+}
+
+
+
+.certificate-card p{
+
+    color:#D1D5DB;
+
+    line-height:1.8;
+
+}
+
+
+
+/* ================= CERTIFICATE IMAGE ================= */
+
+
+.certificate-preview{
+
+    margin:25px auto;
+
+    max-width:650px;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    border:2px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+
+
+.certificate-preview:hover{
+
+    transform:scale(1.02);
+
+    border-color:#10B981;
+
+}
+
+
+
+.certificate-preview img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+
+/* ================= BUTTON ================= */
+
+
+.view-certificate{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:12px 28px;
+
+    border-radius:30px;
+
+    background:linear-gradient(
+
+        90deg,
+
+        #10B981,
+
+        #22D3EE
+
+    );
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+
+
+.view-certificate:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(16,185,129,.25);
+
+}
+
+
+
+/* ================= RESPONSIVE ================= */
+
+
+@media(max-width:768px){
+
+
+.education{
+
+    width:92%;
+
+    padding:60px 0;
+
+}
+
+
+.education h2,
+.certification-section h2{
+
+    font-size:35px;
+
+}
+
+
+
+.education-card,
+.certificate-card{
+
+    padding:25px;
+
+}
+
+
+
+.education-card h3,
+.certificate-card h3{
+
+    font-size:23px;
+
+}
+
+
+
+.education-text{
+
+    font-size:15px;
+
+}
+
+
+.view-certificate{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+
+}
